@@ -57,10 +57,11 @@ F. `true === Boolean(2)` The output would be true, as Bookean would return true 
 19. 
 20. The answer is in part1-question20.js
 21. The output would be:
-1
+
+`1
 
 4
 
 3
 
-2
+2`
