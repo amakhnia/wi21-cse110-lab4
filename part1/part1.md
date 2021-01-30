@@ -37,3 +37,16 @@ F. `false + null` The output would be 0, as here we are doing an operation of ad
 G. `“3” + undefined` The output be 3undefined, as 3 is a string, and just like in part A, we now have to match undefined to be string as well and attach them since it is addition.
 
 H. `“3” - undefined` The output would be NaN, as this is something that is not allowed, since you cannot subtract to a strong and the other variable is undefined.
+
+15.
+A. `‘2’ > 1` The output would be true, as we are transforming both of the values into numbers/integers as needed for comarison.
+
+B. `‘2’ < ‘12’` The output would be false, as we are comparing only the first of the characters, and 2 is larger than 1.
+
+C. `2 == ‘2’` The output would be true, as we are now transforming the 2 into an integers, and 2 is equal to 2. 
+
+D. `2 === ‘2’` The output would be false, because === (three equal) means strict equality, meaning that even the types have to be the same, which is not the case here.
+
+E. `true == 2` The output would be false, since just like in previous questions, we now transfer true into a number/integer, which is 1, and 1 is not equal to 2.
+
+F. `true === Boolean(2)` The output would be true, as Bookean would return true for all values except for a -0, empty string, undefined, false, NaN and null, the rest would always result in true. 
