@@ -50,3 +50,5 @@ D. `2 === ‘2’` The output would be false, because === (three equal) means st
 E. `true == 2` The output would be false, since just like in previous questions, we now transfer true into a number/integer, which is 1, and 1 is not equal to 2.
 
 F. `true === Boolean(2)` The output would be true, as Bookean would return true for all values except for a -0, empty string, undefined, false, NaN and null, the rest would always result in true. 
+
+16. The difference between == and === is that in the == case, only the value has to be equal and the comparision would return true. However, in the case of ===, both the value and the type have to be equal in order to return true, otherwise, in case if either of those does not align, it would return false.
