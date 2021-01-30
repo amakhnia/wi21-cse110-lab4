@@ -10,3 +10,13 @@
 10. An error would happen in line 12. The reason for that is because dicountedPrice is defined as a constant variable, and that means that it could only be used in that loop and it would not exist outside of that loop. 
 11. Line 13 would output 0. The reason is because finalPrice is defined as constant variable (const) and assigned to 0 initally, sicne that happened during the declaration, its value cannot be changed.
 12. The function would output an error. The reason for that error would be similar to the answer to Question 8, in addition with the fact that the function would be attempting to change the value of finalPrice but it is impossible, since it is a constant and is initially set as 0 and cannot be changed.
+13. 
+A. `student.name;`
+
+B. `student['Grad Year'];`
+
+C. `student.greeting();`
+
+D. `student['Favorite Teacher'].name;`
+
+E. `student.courseLoad[0];`
