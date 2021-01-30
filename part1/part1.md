@@ -20,3 +20,20 @@ C. `student.greeting();`
 D. `student['Favorite Teacher'].name;`
 
 E. `student.courseLoad[0];`
+
+14. 
+A. `‘3’ + 2` The output would be 32, since 3 is a string and 2 would be transformed into a string and attached.
+
+B. `‘3’ - 2` The output would be 1, since 2 is an int and 3 would be transformed into an int and then they would be subtracted. "-" cannot be used for strings so it would not work like part A.
+
+C. `3 + null` The output would be 3 as null would be treated as 0 as it would be transformed into the type of 3, which is an integer. 
+
+D. `‘3’ + null` The output would be 3null, as this is the same case as part A, and now null is transformed into a string and attached to 3.
+
+E. `true + 3` The output would be 4, as in this case true is seen as 1 to be the same type as 3, which is an integer.
+
+F. `false + null` The output would be 0, as here we are doing an operation of addition, and since both are not integers, we just treat them as they are integers, in which case false is 0 and null is 0, therefore their addition would result is a 0.
+
+G. `“3” + undefined` The output be 3undefined, as 3 is a string, and just like in part A, we now have to match undefined to be string as well and attach them since it is addition.
+
+H. `“3” - undefined` The output would be NaN, as this is something that is not allowed, since you cannot subtract to a strong and the other variable is undefined.
