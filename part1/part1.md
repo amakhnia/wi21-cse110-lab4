@@ -54,14 +54,16 @@ F. `true === Boolean(2)` The output would be true, as Bookean would return true 
 16. The difference between == equal and === strong equal is that in the == case, only the value has to be equal and the comparision would return true. However, in the case of ===, both the value and the type have to be equal in order to return true, otherwise, in case if either of those does not align, it would return false.
 17. The code snippet would print out 'How are you?'. The first statement, 2 == true is not correct, therefore, we would have to move onto the next statement, which is else if (2), which means it is Boolean(2) and it would be converted to true, as that is a case when boolean is true, and therefore, the statement from else if would be printed, which is 'How are you?'.
 18. The answer is in part1-question18.js
-19. 
+19. The function would return [6, 8, 10] if it is called with the following parameters modifyArray([1,2,3], doSomething). 
+As the function modifyArray is called, first thing that happens is the newArr is being declared but it is empty. Then we go into the for loop, in which we push values into the newArr, where the values are those of the retunrn of the callback function, which in our case would be doSomething. In that function we add 2 to the number, for example we would do 1+2 for the first number is the array that we called it with, so it would turn into [3, 4, 5]. Then we would move into the return in line 5, where we multiply each value in the array newArr by 2, which would result in [6, 8, 10]. Then we would just return this value and that is how we get [6, 8, 10].
+
 20. The answer is in part1-question20.js
 21. The output would be:
 
-`1
+1
 
 4
 
 3
 
-2`
+2
