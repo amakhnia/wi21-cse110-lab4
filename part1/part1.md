@@ -1,1 +1,4 @@
-
+1. Line 11 would output 3, assuming the use the values given to us in Question 4. This output would be possible because the valiable i is defined as var as therefore can be used globally (outside the loop).
+2. Line 12 would output 150, assuming the use the values given to us in Question 4. This output would be possible because the valiable discountedPrice is defined as var as therefore can be used globally (outside the loop).
+3. Line 12 would output 150, assuming the use the values given to us in Question 4. This output would be possible because the valiable finalPrice is defined as var as therefore can be used globally (outside the loop).
+4. Line 13 would output an array with values of [50, 100, 150]. The reason for the output being successful as there are no errors, all of the variables are global. And finally, the dicsount applied is 50% (accoridng to 0.5 being input) and the function outputs discounted prices.
