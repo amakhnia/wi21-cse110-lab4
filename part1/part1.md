@@ -6,3 +6,7 @@
 6. An error would happen in line 12. The reason for that is because dicountedPrice is defined as variable using let, and that means that it could only be used in that loop. 
 7. Line 13 would output 150, assuming the use the values given to us in Question 8. This would be possible because finalValue is defined outside the loop, even though it is defined with let, it could be used thoughout the whole function.
 8. The function would output the error, because for the use of the function we need i, and since it is defined with let, it would not exist outside the loop and it would be impossible to use it.
+9. An error would happen in line 11. The reason for that is because i is defined as variable using let, and that means that it could only be used in that loop. Just as it was in Question 5. 
+10. An error would happen in line 12. The reason for that is because dicountedPrice is defined as a constant variable, and that means that it could only be used in that loop and it would not exist outside of that loop. 
+11. Line 13 would output 0. The reason is because finalPrice is defined as constant variable (const) and assigned to 0 initally, sicne that happened during the declaration, its value cannot be changed.
+12. The function would output an error. The reason for that error would be similar to the answer to Question 8, in addition with the fact that the function would be attempting to change the value of finalPrice but it is impossible, since it is a constant and is initially set as 0 and cannot be changed.
