@@ -53,3 +53,14 @@ F. `true === Boolean(2)` The output would be true, as Bookean would return true 
 
 16. The difference between == equal and === strong equal is that in the == case, only the value has to be equal and the comparision would return true. However, in the case of ===, both the value and the type have to be equal in order to return true, otherwise, in case if either of those does not align, it would return false.
 17. The code snippet would print out 'How are you?'. The first statement, 2 == true is not correct, therefore, we would have to move onto the next statement, which is else if (2), which means it is Boolean(2) and it would be converted to true, as that is a case when boolean is true, and therefore, the statement from else if would be printed, which is 'How are you?'.
+18. The answer is in part1-question18.js
+19. 
+20. The answer is in part1-question20.js
+21. The output would be:
+1
+
+4
+
+3
+
+2
